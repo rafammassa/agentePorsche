@@ -1,62 +1,90 @@
-# 📊 Excel com IA e Claude Code — Automação de Tratamento de Dados
+# 📊 Excel com IA e Claude Code — Automação de Tratamento de Dados + Dashboard Analítico
 
 ## 📖 Sobre o Projeto
 
 Este repositório contém o projeto desenvolvido durante a aceleração **Santander - Excel com IA e Claude**, com foco na utilização de Inteligência Artificial para automatizar processos de tratamento, padronização e análise de dados.
 
+Além do pipeline de processamento de dados, o projeto inclui um **dashboard analítico interativo em HTML**, permitindo visualização executiva dos dados processados.
+
 O desafio consistiu em construir uma solução capaz de:
 
-* Sanitizar dados de planilhas Excel;
-* Padronizar informações conforme um schema previamente definido;
-* Automatizar o processo utilizando agentes de IA;
-* Gerar um executável em Python para replicação da solução em larga escala;
-* Reduzir atividades manuais e aumentar a consistência dos dados processados.
+- Sanitizar dados de planilhas Excel
+- Padronizar informações conforme um schema previamente definido
+- Automatizar o processo utilizando agentes de IA
+- Gerar um executável em Python para replicação em larga escala
+- Construir um dashboard visual para análise executiva dos dados
+- Reduzir atividades manuais e aumentar a consistência dos dados processados
 
 ---
 
 ## 🎯 Objetivo
 
-Desenvolver uma ferramenta capaz de transformar bases de dados heterogêneas em conjuntos de dados padronizados, seguindo regras de negócio estabelecidas, utilizando recursos de IA para acelerar a validação e o tratamento das informações.
+Desenvolver uma solução completa de ponta a ponta que:
+
+- Trata e padroniza dados brutos
+- Aplica inteligência artificial no processo de validação e estruturação
+- Gera outputs prontos para análise
+- Disponibiliza um dashboard visual interativo para insights de negócio
+
+---
+
+## 🖥️ Dashboard Analítico (index.html)
+
+O projeto inclui um dashboard executivo inspirado em uma interface premium automotiva, construído em **HTML moderno com TailwindCSS e ApexCharts**.
+
+### 📊 Funcionalidades do Dashboard
+
+- Filtros dinâmicos (modelo, ano, cidade, método de pagamento)
+- KPIs principais de vendas e performance
+- Gráficos interativos com ApexCharts
+- Layout premium com efeito glassmorphism
+- Hero banner visual de destaque
+- Seção de insights gerados por análise de dados/IA
+- Interface responsiva para desktop e mobile
+
+### 🧠 Perguntas de negócio exploradas
+
+- Quais são os principais modelos vendidos por cidade?
+- Qual ano/modelo teve maior volume de vendas?
+- Quais padrões de consumo por região?
+- Quais insights podem ser extraídos por cidade e método de pagamento?
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-* Python
-* Pandas
-* OpenPyXL
-* GPT Agents
-* Claude Code
-* Microsoft Excel
-* Inteligência Artificial Generativa
+- Python
+- Pandas
+- OpenPyXL
+- GPT Agents
+- Claude Code
+- Microsoft Excel
+- Inteligência Artificial Generativa
+- HTML5
+- TailwindCSS
+- ApexCharts
+- JavaScript
 
 ---
 
 ## ⚙️ Funcionalidades
 
-* Leitura automatizada de planilhas Excel;
-* Validação de estrutura dos dados;
-* Tratamento de inconsistências;
-* Padronização de campos conforme schema definido;
-* Geração de arquivos processados;
-* Execução simplificada através de arquivo executável;
-* Escalabilidade para processamento de múltiplas planilhas.
+### 🔹 Pipeline de Dados
 
----
+- Leitura automatizada de planilhas Excel
+- Validação de estrutura dos dados
+- Tratamento de inconsistências
+- Padronização conforme schema definido
+- Geração de arquivos processados
+- Execução via script ou executável
 
-## 🧠 Conceitos Aplicados
+### 🔹 Dashboard
 
-### AI Reports
-
-Utilização de Inteligência Artificial para auxiliar na criação de relatórios, interpretação de dados e automação de processos analíticos.
-
-### GPT Agents
-
-Construção de agentes especializados para auxiliar na identificação de padrões, validação de dados e automação de tarefas repetitivas.
-
-### Claude Code
-
-Uso de IA para aceleração do desenvolvimento, geração de código, revisão de lógica e implementação de melhorias no fluxo de processamento.
+- Visualização interativa dos dados
+- KPIs executivos
+- Gráficos dinâmicos
+- Interface moderna e responsiva
+- Análise exploratória simplificada
 
 ---
 
@@ -64,43 +92,46 @@ Uso de IA para aceleração do desenvolvimento, geração de código, revisão d
 
 ### Instalação
 
-```bash
 pip install -r requirements.txt
-```
 
-### Execução
+### Execução do pipeline
 
-```bash
 python main.py
-```
 
-Ou utilize o executável disponibilizado na pasta correspondente.
+### Dashboard
+
+Abra o arquivo:
+
+dashboard/index.html
+
+ou dê duplo clique para abrir no navegador.
 
 ---
 
 ## 📈 Resultados Esperados
 
-* Maior confiabilidade dos dados;
-* Redução de erros manuais;
-* Ganho de produtividade em processos repetitivos;
-* Padronização consistente entre diferentes bases de dados;
-* Facilidade de replicação em ambientes corporativos.
+- Padronização consistente de dados
+- Redução de erros manuais
+- Automação do processo de tratamento
+- Ganho de produtividade analítica
+- Visualização executiva dos dados via dashboard
+- Facilidade de escalabilidade
 
 ---
 
 ## 🎓 Sobre o Bootcamp
 
-Projeto desenvolvido durante o programa **Santander - Excel com IA e Claude**, voltado para a aplicação prática de Inteligência Artificial em análise de dados, automação de processos e construção de agentes inteligentes para Excel.
+Projeto desenvolvido durante o programa **Santander - Excel com IA e Claude**, voltado para aplicação prática de Inteligência Artificial em análise de dados, automação de processos e construção de agentes inteligentes para Excel.
 
 ### Conteúdos abordados
 
-* Introdução a AI Reports;
-* Excel aplicado à Inteligência Artificial;
-* GPT Agents;
-* Claude Code;
-* Tratamento automatizado de dados;
-* Construção de dashboards inteligentes;
-* Automação de fluxos analíticos.
+- AI Reports e análise automatizada
+- Excel com IA
+- GPT Agents
+- Claude Code
+- Tratamento automatizado de dados
+- Construção de dashboards inteligentes
+- Automação de fluxos analíticos
 
 ---
 
@@ -108,4 +139,4 @@ Projeto desenvolvido durante o programa **Santander - Excel com IA e Claude**, v
 
 **Rafaella Massa**
 
-Profissional em transição para a área de tecnologia, com foco em Dados, Inteligência Artificial e Automação de Processos.
+Profissional em transição para tecnologia, com foco em Dados, Inteligência Artificial e Automação de Processos.
